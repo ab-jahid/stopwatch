@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Google Fonts -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Stop Watch</title>
+</head>
+<body>
+    <div class="container ">
+        <div class="day-box">
+            <h2 id="min" title="Minutes"></h2><span>:</span>
+            <h2 id="sec" title="Seconds"></h6>
+            <h6 id="msec" title="Mili Seconds"></h6>
+        </div>
+
+        <div class="buttons">
+            <button class="btn btn-success" id="startbtn">Start</button>
+            <button class="btn btn-danger" id="stopbtn">Stop</button>
+            <button class="btn btn-warning" id="resetbtn">Reset</button>
+            <button class="btn btn-info" id="lapsbtn">Laps</button>
+        </div>
+        <ul id="laps"></ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
