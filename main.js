@@ -17,12 +17,12 @@ let mscount = 0
 function myTimer(){
     mscount += 1
     msec.innerHTML = mscount
-    if(mscount === 99){
+    if(mscount === 100){
         scount += 1
         sec.innerHTML = scount
         mscount = 0
     }
-    if(scount === 59){
+    if(scount === 60){
         mcount += 1
         scount = 0
         sec.innerHTML = scount
