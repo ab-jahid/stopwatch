@@ -6,9 +6,9 @@ let startBtn = document.getElementById('startbtn')
 let stopBtn = document.getElementById('stopbtn')
 let resetBtn = document.getElementById('resetbtn')
 
-min.innerHTML = 00
-sec.innerHTML = 00
-msec.innerHTML = 00
+min.innerHTML = '00'
+sec.innerHTML = '00'
+msec.innerHTML = '00'
 
 let mcount = 0
 let scount = 0
